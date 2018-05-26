@@ -1,0 +1,323 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.4
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: 26 Mei 2018 pada 03.13
+-- Versi Server: 10.1.28-MariaDB
+-- PHP Version: 7.1.10
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `database_web`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `bimbingan`
+--
+
+CREATE TABLE `bimbingan` (
+  `nim` varchar(10) NOT NULL,
+  `nama` varchar(30) NOT NULL,
+  `gol` int(1) NOT NULL,
+  `pembimbing` varchar(35) NOT NULL,
+  `judul` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `data_dosen`
+--
+
+CREATE TABLE `data_dosen` (
+  `id_dosen` int(11) NOT NULL,
+  `nip` varchar(25) NOT NULL,
+  `nama_dosen` varchar(75) DEFAULT NULL,
+  `prodi` char(3) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `data_dosen`
+--
+
+INSERT INTO `data_dosen` (`id_dosen`, `nip`, `nama_dosen`, `prodi`) VALUES
+(1, '19711115 199802 1 001', 'Adi Heru Utomo, S.Kom, M.Kom', 'MIF'),
+(2, '19860609 200812 2 004', 'Nanik Anita M., S.ST, MT', 'MIF'),
+(3, '19770929 200501 1 003', 'Didit Rahmat hartadi, S.Kom, MT', 'MIF'),
+(4, '19800517 200812 1 002', 'Dwi Putro Sarwo S S.Kom, M.Kom', 'MIF'),
+(5, '19830203 200604 1 003', 'Hendra Yufit Riskiawan, S.Kom, M.Cs', 'MIF'),
+(6, '197808119 200502 2 001', 'Ika Widiastuti, S.ST, MT', 'MIF'),
+(7, '19810615 200604 1 002', 'Syamsul Arifin , S.Kom., M.Cs.', 'MIF'),
+(8, '19710408 200112 1 003', 'Wahyu Kurnia Dewanto,S.Kom, MT', 'MIF'),
+(9, '19890329 201503 1 001', 'Taufiq Rizaldi S,ST, MT', 'MIF'),
+(10, '19880702 201610 1 001', 'Husin, S.Kom., M.MT.', 'MIF'),
+(11, '19830109 201803 1 001', 'Hermawan Arif S.T.,MT.', 'MIF'),
+(12, '19910429 201710 1 001', 'Faisal Lutfi S.Kom.,M.Kom.', 'MIF'),
+(13, '19780817 200312 1 005', 'Agus Hariyanto ST, M.Kom', 'TKK'),
+(14, '19851128 200812 1 002', 'Aji Seto Arfianto, S.ST, MT', 'TIF'),
+(15, '19780816 200501 1 002', 'Beni Widiawan , S.ST, MT', 'TKK'),
+(16, '19780908 200501 1 001', 'Denny Wijanarko, ST,MT', 'TKK'),
+(17, '19701128 200312 1 001', 'Hariyono Rakhmad , S.Pd, M.Kom', 'TKK'),
+(18, '19810115 200501 1 001', 'Nurul Zainal Fanani, S.ST, MT', 'TKK'),
+(19, '19790703 200312 1 001', 'Surateno, S.Kom,M.Kom', 'TKK'),
+(20, '19840625 201504 1 004', 'Bekti Maryuni S., S.Pd, M.Kom', 'TKK'),
+(21, '19860319 201403 1 001', 'Fendik Eko Purnomo, S.Pd ,MT', 'TKK'),
+(22, '19890710 201509 1 001', 'Ery Setiawan Julev atmaji,S.Kom,M.Cs', 'TKK'),
+(23, '19900227 201503 2 001', 'Trismayanti Dwi P ,S.Kom, M,Cs', 'TKK'),
+(24, '19711009 200312 1 001', 'Denny Trias Utomo, S,Si, MT', 'TKK'),
+(25, '19700929 200312 1 001', 'Yogiswara ST ,MT', 'TKK'),
+(26, '19910315 201703 1 001', 'Syamsiar Kautsar S.ST., MT.', 'TKK'),
+(27, '19730831 200801 1 003', 'Agus Purwadi ST.,MT.', 'TKK'),
+(28, '19700831 199803 1 001', 'Moh. Munih Dian W, S.Kom,MT', 'TIF'),
+(29, '19790921 200501 1 001', 'I Putu Dody Lesmana, ST,MT', 'TIF'),
+(30, '19781011 200501 2 002', 'Elly Antika, ST, M.Kom', 'TIF'),
+(31, '19740519 200312 1 002', 'Nugroho Setyo Wibowo, ST,MT', 'TIF'),
+(32, '19801212 200501 1 001', 'Prawidya Destarianto , S.Kom ,MT', 'TIF'),
+(33, '19860802 201504 2 002', 'Ratih Ayuninghemi S.ST, M.Kom', 'TIF'),
+(34, '19911211 201610 1 001', 'Khafidurohman A., S.Pd., M.Eng.', 'TIF'),
+(35, '19920528 201610 2 001', 'Bety Etikasari, S.Pd., M.Pd.', 'TIF'),
+(36, '19920302 201803 2 001', 'Zilvanhisna Emka Fitri ST., MT.', 'TIF'),
+(37, '19851031 201803 1 001', 'Victor Phoa ST.,MCs.', 'TKK');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `data_mahasiswa`
+--
+
+CREATE TABLE `data_mahasiswa` (
+  `nim` varchar(11) NOT NULL,
+  `nama` varchar(30) NOT NULL,
+  `Prodi` char(3) NOT NULL,
+  `gol` char(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `data_mahasiswa`
+--
+
+INSERT INTO `data_mahasiswa` (`nim`, `nama`, `Prodi`, `gol`) VALUES
+('E31161241', 'Aulia Rafi Dika Pekasih', 'MIF', 'C');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `review`
+--
+
+CREATE TABLE `review` (
+  `id_review` int(5) NOT NULL,
+  `nim` varchar(10) NOT NULL,
+  `nama` varchar(30) NOT NULL,
+  `judul` varchar(50) NOT NULL,
+  `ringkasan` text NOT NULL,
+  `review` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `tabel_penelitian`
+--
+
+CREATE TABLE `tabel_penelitian` (
+  `judul_pelelitian` varchar(50) NOT NULL,
+  `nama` varchar(30) NOT NULL,
+  `ringkasan` text NOT NULL,
+  `berkas` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `tabel_ta`
+--
+
+CREATE TABLE `tabel_ta` (
+  `id_ta` int(11) NOT NULL,
+  `nim` varchar(15) DEFAULT NULL,
+  `nama` varchar(45) DEFAULT NULL,
+  `usulan_pembimbing` varchar(75) DEFAULT NULL,
+  `judul` varchar(100) DEFAULT NULL,
+  `nama_dosen_pengusul` varchar(75) DEFAULT NULL,
+  `ringkasan` longtext,
+  `jenis_ta` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `tbluser`
+--
+
+CREATE TABLE `tbluser` (
+  `id_user` int(11) NOT NULL,
+  `username` varchar(35) NOT NULL,
+  `password` varchar(15) NOT NULL,
+  `level` enum('koordinator','reviewer','dosen','mahasiswa') NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `tbluser`
+--
+
+INSERT INTO `tbluser` (`id_user`, `username`, `password`, `level`) VALUES
+(2, 'Taufiq Rizaldi', 'taufiq', 'koordinator'),
+(3, 'Samsul Arifin', 'samsul', 'reviewer'),
+(4, 'Wahyu Kurnia Dewanto', 'wahyu', 'dosen'),
+(5, 'Aulia Rafi Dika Pekasih', 'rafi', 'mahasiswa');
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `view_review`
+-- (Lihat di bawah untuk tampilan aktual)
+--
+CREATE TABLE `view_review` (
+`id_review` int(5)
+,`nim` varchar(10)
+,`nama` varchar(30)
+,`judul` varchar(50)
+,`ringkasan` text
+,`review` text
+);
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `v_bimbingan`
+-- (Lihat di bawah untuk tampilan aktual)
+--
+CREATE TABLE `v_bimbingan` (
+`nim` varchar(10)
+,`nama` varchar(30)
+,`gol` int(1)
+,`pembimbing` varchar(35)
+,`judul` varchar(50)
+);
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `v_penelitian_dosen`
+-- (Lihat di bawah untuk tampilan aktual)
+--
+CREATE TABLE `v_penelitian_dosen` (
+`judul_pelelitian` varchar(50)
+,`nama` varchar(30)
+,`ringkasan` text
+,`berkas` text
+);
+
+-- --------------------------------------------------------
+
+--
+-- Struktur untuk view `view_review`
+--
+DROP TABLE IF EXISTS `view_review`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_review`  AS  select `review`.`id_review` AS `id_review`,`review`.`nim` AS `nim`,`review`.`nama` AS `nama`,`review`.`judul` AS `judul`,`review`.`ringkasan` AS `ringkasan`,`review`.`review` AS `review` from `review` ;
+
+-- --------------------------------------------------------
+
+--
+-- Struktur untuk view `v_bimbingan`
+--
+DROP TABLE IF EXISTS `v_bimbingan`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_bimbingan`  AS  select `bimbingan`.`nim` AS `nim`,`bimbingan`.`nama` AS `nama`,`bimbingan`.`gol` AS `gol`,`bimbingan`.`pembimbing` AS `pembimbing`,`bimbingan`.`judul` AS `judul` from `bimbingan` ;
+
+-- --------------------------------------------------------
+
+--
+-- Struktur untuk view `v_penelitian_dosen`
+--
+DROP TABLE IF EXISTS `v_penelitian_dosen`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_penelitian_dosen`  AS  select `tabel_penelitian`.`judul_pelelitian` AS `judul_pelelitian`,`tabel_penelitian`.`nama` AS `nama`,`tabel_penelitian`.`ringkasan` AS `ringkasan`,`tabel_penelitian`.`berkas` AS `berkas` from `tabel_penelitian` ;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `data_dosen`
+--
+ALTER TABLE `data_dosen`
+  ADD PRIMARY KEY (`id_dosen`);
+
+--
+-- Indexes for table `data_mahasiswa`
+--
+ALTER TABLE `data_mahasiswa`
+  ADD PRIMARY KEY (`nim`);
+
+--
+-- Indexes for table `review`
+--
+ALTER TABLE `review`
+  ADD PRIMARY KEY (`id_review`);
+
+--
+-- Indexes for table `tabel_penelitian`
+--
+ALTER TABLE `tabel_penelitian`
+  ADD PRIMARY KEY (`judul_pelelitian`);
+
+--
+-- Indexes for table `tabel_ta`
+--
+ALTER TABLE `tabel_ta`
+  ADD PRIMARY KEY (`id_ta`);
+
+--
+-- Indexes for table `tbluser`
+--
+ALTER TABLE `tbluser`
+  ADD PRIMARY KEY (`id_user`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `data_dosen`
+--
+ALTER TABLE `data_dosen`
+  MODIFY `id_dosen` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
+
+--
+-- AUTO_INCREMENT for table `review`
+--
+ALTER TABLE `review`
+  MODIFY `id_review` int(5) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `tabel_ta`
+--
+ALTER TABLE `tabel_ta`
+  MODIFY `id_ta` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `tbluser`
+--
+ALTER TABLE `tbluser`
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
