@@ -77,7 +77,7 @@
  									<span>Account Settings</span>
 								</li>
 								<li><a href="#"><i class="halflings-icon user"></i> Profile</a></li>
-								<li><a href="login.html"><i class="halflings-icon off"></i> Logout</a></li>
+								<li><a href="http://localhost/SIPETA/index.php/Login"><i class="halflings-icon off"></i> Logout</a></li>
 							</ul>
 						</li>
 						<!-- end: User Dropdown -->
@@ -97,18 +97,18 @@
 			<div id="sidebar-left" class="span2">
 				<div class="nav-collapse sidebar-nav">
 					<ul class="nav nav-tabs nav-stacked main-menu">
-						<li><a href="index.html"><i class="icon-home"></i><span class="hidden-tablet">Home</span></a></li>	
+						<li><a href="http://localhost/SIPETA"><i class="icon-home"></i><span class="hidden-tablet">Home</span></a></li>	
 						<li>
 							<a class="dropmenu" href="#"><i class="icon-edit"></i><span class="hidden-tablet">Forms</span><span class="label label-important"> 3 </span></a>
 						<ul>
-							<li><a class="submenu" href="submenu.html"><i class="icon-file-alt"></i><span class="hidden-tablet">Form Mahasiswa
-							</span></a></li>
-							<li><a class="submenu" href="submenu2.html"><i class="icon-file-alt"></i><span class="hidden-tablet">Form Dosen</span></a></li>
+							<li><a class="submenu" href="http://localhost/SIPETA/index.php/Form_Mahasiswa">
+							<i class="icon-file-alt"></i><span class="hidden-tablet">Form Mahasiswa</span></a></li>
+							<li><a class="submenu" href="http://localhost/SIPETA/index.php/Form_Dosen"><i class="icon-file-alt"></i><span class="hidden-tablet">Form Dosen</span></a></li>
 							<li><a class="submenu" href="submenu3.html"><i class="icon-file-alt"></i><span class="hidden-tablet">Form Reviewer
 							</span></a></li>
 						</ul>	
 						</li>
-						<li><a href="typography.html"><i class="icon-font"></i><span class="hidden-tablet">INFO</span></a></li>
+						<li><a href="http://localhost/SIPETA/index.php/Info"><i class="icon-font"></i><span class="hidden-tablet">INFO</span></a></li>
 					</ul>
 				</div>
 			</div>
