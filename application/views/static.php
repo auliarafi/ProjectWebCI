@@ -104,7 +104,7 @@
 							<li><a class="submenu" href="http://localhost/SIPETA/index.php/Form_Mahasiswa">
 							<i class="icon-file-alt"></i><span class="hidden-tablet">Form Mahasiswa</span></a></li>
 							<li><a class="submenu" href="http://localhost/SIPETA/index.php/Form_Dosen"><i class="icon-file-alt"></i><span class="hidden-tablet">Form Dosen</span></a></li>
-							<li><a class="submenu" href="submenu3.html"><i class="icon-file-alt"></i><span class="hidden-tablet">Form Reviewer
+							<li><a class="submenu" href="http://localhost/SIPETA/index.php/Form_Reviewer"><i class="icon-file-alt"></i><span class="hidden-tablet">Form Reviewer
 							</span></a></li>
 						</ul>	
 						</li>
