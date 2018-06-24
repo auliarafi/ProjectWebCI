@@ -1,12 +1,13 @@
-<?php
+<?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class M_login extends CI_Model {
 
-	function cek_user($username="",$password="")
+	public function proseslogin($user, $pass)
 	{
-		$query = $this->db->get_where(user, array('username' => $username, 'password' => $password));
-		$query = $query->result_array();
-		return $query;
+		$this->db->where('username', $user); 
+		$this->db->where('password', $pass);
+		return $this->db->get('user')->row();
 	}
 }
+

@@ -24,6 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/SIPETA';
+$link = mysqli_connect("localhost", "root", "", "sipeta") or die($link);
 
 /*
 |--------------------------------------------------------------------------

@@ -96,7 +96,7 @@
 					<hr>
 					<h3>Belum punya akun?</h3>
 					<p>
-						jangan panik, <a href="<?php echo base_url();?>index.php/Daftar">klik disini</a> untuk mendaftar.
+						jangan panik, <a href="ini belum bro">klik disini</a> untuk mendaftar.
 					</p>	
 				</div><!--/span-->
 			</div><!--/row-->

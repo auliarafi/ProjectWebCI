@@ -22,225 +22,32 @@
 					<div class="box-content">
 						<table class="table table-striped table-bordered bootstrap-datatable datatable">
 						  <thead>
+						  <div class="table-responsive">
+						<center>
+							<tr align="center" height="40">
 							  <tr>
-								  <th>Username</th>
-								  <th>Date registered</th>
-								  <th>Role</th>
-								  <th>Status</th>
-							  </tr>
-						  </thead>   
-						  <tbody>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/01/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-success">Active</span>
-								</td>
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/02/01</td>
-								<td class="center">Staff</td>
-								<td class="center">
-									<span class="label label-important">Banned</span>
-								</td>
-								 
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/03/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-warning">Pending</span>
-								</td>
-								 
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/01/21</td>
-								<td class="center">Staff</td>
-								<td class="center">
-									<span class="label label-success">Active</span>
-								</td>
-								 
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/08/23</td>
-								<td class="center">Staff</td>
-								<td class="center">
-									<span class="label label-important">Banned</span>
-								</td>
-								 
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/06/01</td>
-								<td class="center">Admin</td>
-								<td class="center">
-									<span class="label">Inactive</span>
-								</td>
-								 
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/06/01</td>
-								<td class="center">Admin</td>
-								<td class="center">
-									<span class="label">Inactive</span>
-								</td>
-								 
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/03/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-warning">Pending</span>
-								</td>
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/03/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-warning">Pending</span>
-								</td>
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/03/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-warning">Pending</span>
-								</td>
-								</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/01/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-success">Active</span>
-								</td>
-								</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/02/01</td>
-								<td class="center">Staff</td>
-								<td class="center">
-									<span class="label label-important">Banned</span>
-								</td>
-								</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/02/01</td>
-								<td class="center">Admin</td>
-								<td class="center">
-									<span class="label">Inactive</span>
-								</td>
-								</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/02/01</td>
-								<td class="center">Admin</td>
-								<td class="center">
-									<span class="label">Inactive</span>
-								</td>
-								</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/03/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-warning">Pending</span>
-								</td>
-								</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/03/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-warning">Pending</span>
-								</td>
-								</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/01/21</td>
-								<td class="center">Staff</td>
-								<td class="center">
-									<span class="label label-success">Active</span>
-								</td>
-								</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/01/21</td>
-								<td class="center">Staff</td>
-								<td class="center">
-									<span class="label label-success">Active</span>
-								</td>
-								</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/08/23</td>
-								<td class="center">Staff</td>
-								<td class="center">
-									<span class="label label-important">Banned</span>
-								</td>
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/08/23</td>
-								<td class="center">Staff</td>
-								<td class="center">
-									<span class="label label-important">Banned</span>
-								</td>
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/06/01</td>
-								<td class="center">Admin</td>
-								<td class="center">
-									<span class="label">Inactive</span>
-								</td>
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/03/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-warning">Pending</span>
-								</td>
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/03/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-warning">Pending</span>
-								</td>
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/03/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-warning">Pending</span>
-								</td>
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/03/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-warning">Pending</span>
-								</td>
-							</tr>
-						  </tbody>
-					  </table>            
-					</div>
-				</div><!--/span-->
-			
+								 	<td><u>No</u></td>
+			    					<td><u>Judul</u></td>
+			   						<td><u>Nama Dosen</u></td>
+			    					<td><u>Deskripsi</u></td>
+			    					</tr>
+			    			</thead>
+			<?php 
+			$i=1;
+			foreach ($data_penelitian as $data) {?>
+			    <tr bgcolor='#FFFFFF' align='center' height='30'  id='tabel'>
+			  		<td><?php echo $i?></td>
+					<td><?php echo $data->JUDUL_PENELITIAN?></td>
+					<td><?php echo $data->NAMA_DOSEN?></td>
+					<td><?php echo $data->RINGKASAN?></td>
+					</td>
+				</tr>
+			<?php 
+			$i++; } 
+			?>
+						 </table>  
+					
+				</div><!--/span-->	
 			</div><!--/row-->
 			
 			<div class="row-fluid sortable">

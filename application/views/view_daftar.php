@@ -72,31 +72,42 @@
 					
 					<h2><center>Selamat Datang di SIPETA</center></h2>
 					<h2>Ketikkan username dan password anda</h2>
-					<form method="post" class="form-horizontal" action="<?php echo base_url();?>index.php/Login/cek_login" onsubmit="return cekform();">
+					<form method="post" class="form-horizontal" action="<?php echo base_url();?>index.php/Daftar/insert" onsubmit="return cekform();">
 						<fieldset>
 							
 							<div class="input-prepend" title="Username">
 								<span class="add-on"><i class="halflings-icon user"></i></span>
-								<input class="input-large span10" name="username" id="username" type="text" placeholder="type username"/>
+								<input class="input-large span10" name="username" id="username" type="text" placeholder=" username"/>
+							</div>
+							<div class="clearfix"></div>
+							
+							<div class="input-prepend" title="nama_lengkap">
+								<span class="add-on"><i class="halflings-icon user"></i></span>
+								<input class="input-large span10" name="nama" id="nama" type="text" placeholder="Nama Lengkap"/>
 							</div>
 							<div class="clearfix"></div>
 
 							<div class="input-prepend" title="Password">
 								<span class="add-on"><i class="halflings-icon lock"></i></span>
-								<input class="input-large span10" name="password" id="password" type="password" placeholder="type password"/>
+								<input class="input-large span10" name="password" id="password" type="password" placeholder=" password"/>
 							</div>
 							<div class="clearfix"></div>
 							
-							<?php echo $this->session->flashdata('gagallogin')?>
+							<div class="input-prepend" title="hak akses">
+								<span class="add-on"><i class="halflings-icon user"></i></span>
+								<input class="input-large span10" name="level" id="nama" type="text" placeholder="Mahasiswa/Dosen/Reviewer/Admin"/>
+							</div>
+							<div class="clearfix"></div>				
+							
 							<div class="button-login">	
-								<button type="submit" name="login" value="LOGIN" class="btn btn-primary">Login</button>
+								<button type="submit" name="daftar" value="DAFTAR" class="btn btn-primary">Daftar</button>
 							</div>
 							<div class="clearfix"></div>
 					</form>
 					<hr>
-					<h3>Belum punya akun?</h3>
+					<h3>Sudah mendaftar?</h3>
 					<p>
-						jangan panik, <a href="<?php echo base_url();?>index.php/Daftar">klik disini</a> untuk mendaftar.
+						<a href="http://localhost/SIPETA/index.php/Login">klik disini</a> untuk masuk.
 					</p>	
 				</div><!--/span-->
 			</div><!--/row-->
