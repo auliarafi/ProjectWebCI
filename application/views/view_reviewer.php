@@ -39,9 +39,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
 										<i class="halflings-icon white edit"></i>
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a>  
 									</a>
 								</td>
 							</tr>
@@ -53,9 +52,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
-										<i class="halflings-icon white edit"></i>  
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a> 
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
+										<i class="halflings-icon white edit"></i> 
 									</a>
 								</td>
 							</tr>
@@ -67,9 +65,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
 										<i class="halflings-icon white edit"></i>
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a>
 									</a>
 								</td>
 							</tr>
@@ -81,9 +78,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
 										<i class="halflings-icon white edit"></i> 
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a>  
 									</a>
 								</td>
 							</tr>
@@ -95,9 +91,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
 										<i class="halflings-icon white edit"></i>  
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a> 
 									</a>
 								</td>
 							</tr>
@@ -109,9 +104,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
 										<i class="halflings-icon white edit"></i>  
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a> 
 									</a>
 								</td>
 							</tr>
@@ -123,23 +117,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
-										<i class="halflings-icon white edit"></i> 
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a>  
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/01/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-success">Active</span>
-								</td>
-								<td class="center">
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
 										<i class="halflings-icon white edit"></i>  
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a> 
 									</a>
 								</td>
 							</tr>
@@ -151,9 +130,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
 										<i class="halflings-icon white edit"></i>  
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a> 
 									</a>
 								</td>
 							</tr>
@@ -165,9 +143,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
 										<i class="halflings-icon white edit"></i>  
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a> 
 									</a>
 								</td>
 							</tr>
@@ -179,9 +156,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
 										<i class="halflings-icon white edit"></i>  
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a> 
 									</a>
 								</td>
 							</tr>
@@ -193,9 +169,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
 										<i class="halflings-icon white edit"></i>  
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a> 
 									</a>
 								</td>
 							</tr>
@@ -207,37 +182,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
-										<i class="halflings-icon white edit"></i>  
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a> 
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/01/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-success">Active</span>
-								</td>
-								<td class="center">
-									<a class="btn btn-info" href="#">
-										<i class="halflings-icon white edit"></i>  
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a> 
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>Dennis Ji</td>
-								<td class="center">2012/01/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-success">Active</span>
-								</td>
-								<td class="center">
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
 										<i class="halflings-icon white edit"></i>
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a>   
 									</a>
 								</td>
 							</tr>
@@ -249,9 +195,8 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
-										<i class="halflings-icon white edit"></i> 
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a>  
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
+										<i class="halflings-icon white edit"></i>  
 									</a>
 								</td>
 							</tr>
@@ -263,9 +208,47 @@
 									<span class="label label-success">Active</span>
 								</td>
 								<td class="center">
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
+										<i class="halflings-icon white edit"></i>
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Dennis Ji</td>
+								<td class="center">2012/01/01</td>
+								<td class="center">Member</td>
+								<td class="center">
+									<span class="label label-success">Active</span>
+								</td>
+								<td class="center">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
+										<i class="halflings-icon white edit"></i>
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Dennis Ji</td>
+								<td class="center">2012/01/01</td>
+								<td class="center">Member</td>
+								<td class="center">
+									<span class="label label-success">Active</span>
+								</td>
+								<td class="center">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
 										<i class="halflings-icon white edit"></i> 
-										<a href="http://localhost/SIPETA/index.php/Form_input_review"></a>  
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Dennis Ji</td>
+								<td class="center">2012/01/01</td>
+								<td class="center">Member</td>
+								<td class="center">
+									<span class="label label-success">Active</span>
+								</td>
+								<td class="center">
+									<a class="btn btn-info" href="http://localhost/SIPETA/index.php/Form_input_review">
+										<i class="halflings-icon white edit"></i> 
 									</a>
 								</td>
 							</tr>

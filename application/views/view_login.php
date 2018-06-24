@@ -29,6 +29,24 @@
 		<link id="ie-style" href="css/ie.css" rel="stylesheet">
 	<![endif]-->
 	
+	<script type="text/javascript">
+		function cekform()
+		{
+			if(!$("$username").val())
+			{
+				alert ("maaf username tidak boleh kosong");
+				$("$username").focus();
+				return false;
+			}
+			if(!$("$password").val())
+			{
+				alert ("maaf password tidak boleh kosong");
+				$("$password").focus();
+				return false;
+			}
+		}
+	</script>>
+
 	<!--[if IE 9]>
 		<link id="ie9style" href="css/ie9.css" rel="stylesheet">
 	<![endif]-->
@@ -53,7 +71,7 @@
 				<div class="login-box">
 					
 					<h2>Login to your account</h2>
-					<form class="form-horizontal" action="index.html" method="post">
+					<form method="post" class="form-horizontal" action="<?php echo base_url();?>index.php/Login/do_login" onsubmit="return cekform();">
 						<fieldset>
 							
 							<div class="input-prepend" title="Username">
@@ -68,17 +86,16 @@
 							</div>
 							<div class="clearfix"></div>
 							
-							<label class="remember" for="remember"><input type="checkbox" id="remember" />Remember me</label>
-
+							<?php echo $this->session->flashdata('gagallogin')?>
 							<div class="button-login">	
 								<button type="submit" class="btn btn-primary">Login</button>
 							</div>
 							<div class="clearfix"></div>
 					</form>
 					<hr>
-					<h3>Forgot Password?</h3>
+					<h3>Belum punya akun?</h3>
 					<p>
-						No problem, <a href="#">click here</a> to get a new password.
+						jangan panik, <a href="#">klik disini</a> untuk mendaftar.
 					</p>	
 				</div><!--/span-->
 			</div><!--/row-->
