@@ -7,9 +7,9 @@
 					<a href="http://localhost/SIPETA">Home</a> 
 					<i class="icon-angle-right"></i>
 				</li>
-				<li><a href="#">Form Dosen Pembimbing</a></li>
+				<li><a href="#">Form Pilihan Dosen Pembimbing</a></li>
 			</ul>
-
+			
 			<div class="row-fluid sortable">		
 				<div class="box span12">
 					<div class="box-header" data-original-title>
@@ -38,25 +38,30 @@
 								$no = 1;
 								foreach ($tfix as $t){ 
 							?>
+								<form action="<?php echo base_url(). 'index.php/Form_pilih_dospem/insert'; ?>" method="post">
 								<tr>
 									<td><?php echo $no++ ?></td>
 									<td><?php echo $t->NIM ?></td>
+									<input style="visibility: hidden;" type="text" name="nim" value="<?php echo $t->NIM ?>">
 									<td><?php echo $t->NAMA ?></td>
+									<input style="visibility: hidden;" type="text" name="nama" value="<?php echo $t->NAMA ?>">
 									<td><?php echo $t->JUDUL_TA_FIX ?></td>
 									<td><?php echo $t->RINGKASAN ?></td>
 									<td><?php echo $t->DOSPEM ?></td>
+									<input style="visibility: hidden;" type="text" name="dospem" value="<?php echo $t->DOSPEM ?>">
 									<td><?php echo $t->JENIS ?></td>
 									<td>
-			      						<input type="submit" name="btnSubmit" value="Pilih"/>
+			      						<center><button type="submit" class="btn btn-primary">Pilih</button></br></center>
 									</td>
 								</tr>
+								</form>
 							<?php } ?>
 							
 							</tbody>
-					  </table>            
+					  </table> 
+					  </form>           
 					</div>
 				</div><!--/span-->
-
 			</div><!--/row-->
 
 	</div><!--/.fluid-container-->
