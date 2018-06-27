@@ -13,18 +13,41 @@ class Form_reviewer extends CI_Controller {
 
 	}
 
-	public function edit($NIM){
-		$this->load->model("review_model");
-		$data['tipe'] = "Edit";
-		$data['default'] = $this->review_model->get_default($NIM);
+	//public function edit($NIM){
+	//	$this->load->model("review_model");
+	//	$data['tipe'] = "Edit";
+	//	$data['default'] = $this->review_model->get_default($NIM);
 
-		if(isset($_POST['tombol_submit'])){
-			$this->review_model->update($_POST, $NIM);
-			redirect("Form_reviewer");
-		}
+	//	if(isset($_POST['tombol_submit'])){
+	//		$this->review_model->update($_POST, $NIM);
+	//		redirect("Form_reviewer");
+	//	}
 
-		$this->load->view("editreview",$data);
+	//	$this->load->view("editreview",$data);
+	//}
+
+	function edit ($NIM){
+
+		$where	= array('NIM'=> $NIM);
+
+		$data['review']= $this->review_model->ambil_where($where, 'usulan_ta')->result();
+
+		$this->load->view('edit_data_review', $data);
+
 	}
 
+	function proses_edit(){
+		$NIM=$this->input->post('NIM');
+		$review=$this->input->post('review');
+
+		$data=array(
+			'REVIEW' => $review
+		);
+
+		$where = array('NIM'=>$NIM);
+
+		$this->review_model->update($where,$data,'usulan_ta');
+		redirect("Form_reviewer");
+	}
 	
 	}
