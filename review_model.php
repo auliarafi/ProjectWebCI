@@ -10,19 +10,29 @@ class review_model extends CI_Model {
         return $this->db->get(); 
     }
 
-    public function get_default($NIM){
-        $sql = $this->db->query("SELECT * FROM usulan_ta WHERE NIM = ".intval($NIM));
-        if($sql->num_rows() > 0)
-            return $sql->row_array();
-        return false;
+    //public function get_default($NIM){
+        //$sql = $this->db->query("SELECT * FROM usulan_ta WHERE NIM = ".intval($NIM));
+        //if($sql->num_rows() > 0)
+          //  return $sql->row_array();
+        //return false;
+    //}
+
+    //public function update($post, $NIM){
+      //  $review = $this->db->escape($post['review']);
+
+        //$sql = $this->db->query("UPDATE usulan_ta SET REVIEW = $review WHERE NIM = ".intval($NIM));
+
+        //return true;
+    //}
+
+    function ambil_where ($where, $table){
+        return $this->db->get_where($table,$where);
+
     }
 
-    public function update($post, $NIM){
-        $review = $this->db->escape($post['review']);
-
-        $sql = $this->db->query("UPDATE usulan_ta SET REVIEW = $review WHERE NIM = ".intval($NIM));
-
-        return true;
-    }
+    function update ($where, $data, $table){
+        $this->db->where($where);
+        $this->db->update($table,$data);
+    }   
 }
 ?>
